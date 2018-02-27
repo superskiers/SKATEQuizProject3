@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SKATE Quiz Project3</string>
+    <string name="submit">submit</string>
+    <string name="reset">reset</string>
+
+    <!--Question Strings below-->
+    <string name="question1">#1. What is the name of this trick?</string>
+    <string name="question2">#2. What are the different stances in skateboarding? (Select 3)</string>
+    <string name="question3">#3. What is the name of this trick?</string>
+    <string name="question4">#4. What does it mean to skate "Mongo"?</string>
+    <string name="question5">#5. For the first time ever, skateboarding will be included in the 2020 Olympics in Tokyo.</string>
+
+    <!--Answer Strings Below-->
+    <string name="impossible">Impossible</string>
+    <string name="method">Method</string>
+    <string name="varial180">180 Varial</string>
+    <string name="kickflip">Kick Flip</string>
+
+    <string name="checkSwitch">"Switch</string>
+    <string name="fakie">Fakie</string>
+    <string name="regular">Regular</string>
+    <string name="daffy">Daffy</string>
+    <string name="goofy">Goofy</string>
+    <string name="disney">Disney</string>
+
+    <string name="stalefish">Stale Fish</string>
+    <string name="melongrab">Melon Grab</string>
+    <string name="indy">Indy Grab</string>
+    <string name="sandman">Sand Man</string>
+
+    <string name="q4rB1">To ride backwards</string>
+    <string name="q4rB2">To longboard</string>
+    <string name="q4rB3">Mainly On Nuero Generated Optimisim</string>
+    <string name="q4rB4">Front-foot pushes</string>
+
+    <string name="vrai">True</string>
+    <string name="faux">False</string>
+
+    <!--Toast Message String-->
+    <string name="merci">" your score is "</string>
+    <string name="wellDone">Well done </string>
+    <string name="out7"> out of 5</string>
+    <string name="finalScore">Your final score is:</string>
+    <string name="nadaComment">Thanks for nothing!</string>
+    <string name="ansSomething">At least try and answer something</string>
+    <string name="almostLanded">You almost landed it.   You got </string>
+    <string name="resetTRY">out of 5.   Press Reset and Try Again.</string>
+    <string name="exclamationMark">!</string>
+    <string name="period">.</string>
+    <string name="enterNameField">Enter Your Name Here</string>
+
+
+</resources>
