@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
     private CheckBox q2c5;
     private CheckBox q2c6;
     private EditText playersName;
-    private EditText finalQ6A;
     private String c1 = "California";
+    private EditText getAnswer6;
 
 
     @Override
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         vrai = findViewById(R.id.vrai);
         //Initialize EditTexts
         playersName = findViewById(R.id.enterName);
-        finalQ6A = findViewById(R.id.finalQ6);
+        getAnswer6 = findViewById(R.id.answer6);
     }
     // This method is called when the Submit Button is clicked.
     public void sendMessage(View view) {
@@ -96,31 +96,32 @@ public class MainActivity extends AppCompatActivity {
 
         boolean cestvrai = vrai.isChecked();
 
-        boolean finalQans = finalQ6A.getText().toString().equals(c1) == true;
+        boolean getAns6 = getAnswer6.getText().toString().equalsIgnoreCase(c1);
 
-        int score = calculateScore(rbKickFlip, rbMelonGrab, checkedGoofy, checkedRegular, checkedSwitch, checkedDaffy, checkedFakie, checkedDisney, frontFootPushing, cestvrai, finalQans);
+        int score = calculateScore(rbKickFlip, rbMelonGrab, checkedGoofy, checkedRegular, checkedSwitch, checkedDaffy, checkedFakie, checkedDisney, frontFootPushing, cestvrai, getAns6);
         String playerMessage = gameSummary(score, playerName);
     }
     //This method calculates the score
-    private int calculateScore(boolean rbKickFlip, boolean rbMelonGrab, boolean checkedGoofy, boolean checkedRegular, boolean checkedSwitch, boolean checkedDaffy, boolean checkedFakie, boolean checkedDisney, boolean frontFootPushing, boolean cestvrai, boolean finalQans) {
+    private int calculateScore(boolean rbKickFlip, boolean rbMelonGrab, boolean checkedGoofy, boolean checkedRegular, boolean checkedSwitch, boolean checkedDaffy, boolean checkedFakie, boolean checkedDisney, boolean frontFootPushing, boolean cestvrai, boolean getAns6) {
         int score = 0;
         if (rbKickFlip) {
-            score += 1;
+            score ++;
         }
         if (rbMelonGrab) {
-            score += 1;
+            score ++;
         }
         if(checkedGoofy && checkedRegular && !checkedDaffy && !checkedDisney && !checkedFakie && checkedSwitch) {
-            score += 1;
+            score ++;
         }
         if (frontFootPushing) {
-            score += 1;
+            score ++;
         }
         if (cestvrai) {
-            score += 1;
+            score ++;
         }
-        if (finalQans); {
-            score += 1;
+        if (getAns6); {
+
+            score ++;
         }
         return score;
     }

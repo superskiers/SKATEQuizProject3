@@ -291,7 +291,7 @@
                 android:layout_marginRight="@dimen/seize"/>
 
             <EditText
-                android:id="@+id/finalQ6"
+                android:id="@+id/answer6"
                 android:textSize="@dimen/vingtSP"
                 style="@style/blackAndBold"
                 android:paddingLeft="80dp"
