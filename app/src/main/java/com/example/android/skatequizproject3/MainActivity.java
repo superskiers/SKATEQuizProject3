@@ -120,8 +120,7 @@ public class MainActivity extends AppCompatActivity {
             score ++;
         }
         if (getAns6); {
-
-            score ++;
+            score += 10;
         }
         return score;
     }
