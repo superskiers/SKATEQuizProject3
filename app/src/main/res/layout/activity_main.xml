@@ -23,10 +23,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/fontskate"
-                android:adjustViewBounds="true"/>
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/skateLogo"/>
 
             <EditText
-
                 android:id="@+id/enterName"
                 android:textSize="@dimen/vingtSP"
                 style="@style/blackAndBold"
@@ -48,7 +48,8 @@
                 <VideoView
                     android:id="@+id/kickflip"
                     android:layout_width="wrap_content"
-                    android:layout_height="@dimen/twoFiftyDP"  />
+                    android:layout_height="@dimen/twoFiftyDP"
+                    android:contentDescription="@string/videokickflip"/>
 
                 <TextView
                     android:id="@+id/question1"
@@ -63,35 +64,19 @@
 
                 <RadioButton
                     android:id="@+id/rbVarial"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/black"
-                    android:text="@string/varial180"
-                    android:layout_marginLeft="@dimen/huit"
-                    android:textSize="@dimen/general_text" />
+                    style="@style/QuestionTextLayout"
+                    android:text="@string/varial180"/>
                 <RadioButton
                     android:id="@+id/rbMethod"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="@dimen/huit"
-                    android:textSize="@dimen/general_text"
+                    style="@style/QuestionTextLayout"
                     android:text="@string/method" />
                 <RadioButton
                     android:id="@+id/rbKickFlip"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="@dimen/huit"
-                    android:textSize="@dimen/general_text"
+                    style="@style/QuestionTextLayout"
                     android:text="@string/kickflip" />
                 <RadioButton
                     android:id="@+id/impossible"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="@dimen/huit"
-                    android:textSize="@dimen/general_text"
+                    style="@style/QuestionTextLayout"
                     android:text="@string/impossible"/>
 
             </RadioGroup>
@@ -104,46 +89,35 @@
                     android:layout_marginTop="@dimen/buckDP"
                     android:layout_height="@dimen/two25DP"
                     android:layout_width="match_parent"
-                    android:src="@drawable/skatestance2"/>
+                    android:src="@drawable/skatestance2"
+                    android:contentDescription="@string/differentStances"/>
 
                 <TextView
                     android:layout_below="@id/skatestanceflick"
                     android:id="@+id/question2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    style="@style/blackAndBold"
                     android:layout_marginLeft="@dimen/huit"
+                    style="@style/blackAndBold"
                     android:text="@string/question2"
                     android:textSize="@dimen/general_text"/>
 
                 <CheckBox
                     android:layout_below="@id/question2"
                     android:id="@+id/checkSwitch"
-                    android:layout_marginLeft="@dimen/huit"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/general_text"
+                    style="@style/QuestionTextLayout"
                     android:text="@string/checkSwitch"/>
 
                 <CheckBox
                     android:layout_below="@id/checkSwitch"
                     android:id="@+id/checkFakie"
-                    android:layout_marginLeft="@dimen/huit"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/general_text"
+                    style="@style/QuestionTextLayout"
                     android:text="@string/fakie"/>
 
                 <CheckBox
                     android:id="@+id/checkRegular"
                     android:layout_below="@id/checkFakie"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/huit"
-                    android:textSize="@dimen/general_text"
-                    android:textColor="@color/black"
+                    style="@style/QuestionTextLayout"
                     android:text="@string/regular"/>
                 <CheckBox
                     android:id="@+id/checkDaffy"
@@ -192,7 +166,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/threeHunDP"
                     android:layout_marginTop="@dimen/buckDP"
-                    android:src="@drawable/melongrab"/>
+                    android:src="@drawable/melongrab"
+                    android:contentDescription="@string/sk8rMelonGrab"/>
 
                 <TextView
                     android:id="@+id/question3"
@@ -205,35 +180,19 @@
 
                 <RadioButton
                     android:id="@+id/stalefish"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/huit"
-                    android:textSize="@dimen/general_text"
-                    android:textColor="@color/black"
+                    style="@style/QuestionTextLayout"
                     android:text="@string/stalefish"/>
                 <RadioButton
                     android:id="@+id/melongrab"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/huit"
-                    android:textSize="@dimen/general_text"
-                    android:textColor="@color/black"
+                    style="@style/QuestionTextLayout"
                     android:text="@string/melongrab"/>
                 <RadioButton
                     android:id="@+id/sandman"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/huit"
-                    android:textSize="@dimen/general_text"
-                    android:textColor="@color/black"
+                    style="@style/QuestionTextLayout"
                     android:text="@string/sandman"/>
                 <RadioButton
                     android:id="@+id/indy"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/huit"
-                    android:textSize="@dimen/general_text"
-                    android:textColor="@color/black"
+                    style="@style/QuestionTextLayout"
                     android:text="@string/indy"/>
 
             </RadioGroup>
@@ -247,7 +206,8 @@
                     android:src="@drawable/mongosk8"
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/threeHunDP"
-                    android:layout_marginTop="@dimen/buckDP"/>
+                    android:layout_marginTop="@dimen/buckDP"
+                    android:contentDescription="@string/longboardSkateboarder"/>
 
                 <TextView
                     android:id="@+id/question4"
@@ -260,36 +220,20 @@
 
                 <RadioButton
                     android:id="@+id/q4rB1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="@dimen/huit"
-                    android:textSize="@dimen/general_text"
+                    style="@style/QuestionTextLayout"
                     android:text="@string/q4rB1"/>
                 <RadioButton
                     android:id="@+id/q4rB2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="@dimen/huit"
-                    android:textSize="@dimen/general_text"
+                    style="@style/QuestionTextLayout"
                     android:text="@string/q4rB2"/>
 
                 <RadioButton
                     android:id="@+id/q4rB3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="@dimen/huit"
-                    android:textSize="@dimen/general_text"
+                    style="@style/QuestionTextLayout"
                     android:text="@string/q4rB3"/>
                 <RadioButton
                     android:id="@+id/q4rB4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/huit"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/general_text"
+                    style="@style/QuestionTextLayout"
                     android:text="@string/q4rB4"
                     android:layout_marginBottom="@dimen/seize"/>
 
@@ -304,7 +248,9 @@
                 <ImageView
                     android:src="@drawable/evolutionofsk8"
                     android:layout_width="match_parent"
-                    android:layout_height="@dimen/one50DP" />
+                    android:layout_height="@dimen/one50DP"
+                    android:layout_marginTop="@dimen/sixTeen"
+                    android:contentDescription="@string/evolutionPic"/>
 
                 <TextView
                     android:id="@+id/question5"
@@ -318,23 +264,48 @@
 
                 <RadioButton
                     android:id="@+id/vrai"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/general_text"
-                    android:layout_marginLeft="@dimen/huit"
+                    style="@style/QuestionTextLayout"
                     android:text="@string/vrai"/>
                 <RadioButton
                     android:id="@+id/faux"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/huit"
-                    android:textColor="@color/black"
-                    android:textSize="@dimen/general_text"
+                    style="@style/QuestionTextLayout"
                     android:text="@string/faux"
                     android:layout_marginBottom="@dimen/seize"/>
 
             </RadioGroup>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/two65DP"
+                android:src="@drawable/skateboard60s"
+                android:layout_marginTop="@dimen/buckDP"/>
+
+            <TextView
+                android:id="@+id/question6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question6"
+                style="@style/blackAndBold"
+                android:textSize="@dimen/general_text"
+                android:layout_marginLeft="@dimen/huit"
+                android:layout_marginRight="@dimen/seize"/>
+
+            <EditText
+                android:id="@+id/finalQ6"
+                android:textSize="@dimen/vingtSP"
+                style="@style/blackAndBold"
+                android:paddingLeft="80dp"
+                android:layout_marginLeft="@dimen/huit"
+                android:layout_marginRight="@dimen/huit"
+                android:layout_gravity="clip_vertical"
+                android:layout_marginTop="@dimen/sixTeen"
+                android:background="@drawable/circle_button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="60dp"
+                android:hint="@string/firstContestEditText"
+                android:textColorHint="@color/black"
+                android:inputType="textCapWords"/>
 
             <Button
                 android:layout_width="@dimen/seize"
@@ -347,7 +318,6 @@
             <Button
                 android:layout_width="@dimen/seize"
                 android:layout_height="wrap_content"
-
                 android:id="@+id/resetBTN"
                 android:textStyle="bold"
                 android:onClick="resetQuiz"

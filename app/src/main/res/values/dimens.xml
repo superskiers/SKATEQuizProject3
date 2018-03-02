@@ -14,5 +14,7 @@
     <dimen name="twoHunDP">200dp</dimen>
     <dimen name="two25DP">225dp</dimen>
     <dimen name="one50DP">150dp</dimen>
+    <dimen name="two65DP">265dp</dimen>
+
 
 </resources>

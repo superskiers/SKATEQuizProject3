@@ -9,6 +9,7 @@
     <string name="question3">#3. What is the name of this trick?</string>
     <string name="question4">#4. What does it mean to skate "Mongo"?</string>
     <string name="question5">#5. For the first time ever, skateboarding will be included in the 2020 Olympics in Tokyo.</string>
+    <string name="question6">#6. In what state in the U.S.A., was the first ever skateboard contest held?</string>
 
     <!--Answer Strings Below-->
     <string name="impossible">Impossible</string>
@@ -36,18 +37,26 @@
     <string name="vrai">True</string>
     <string name="faux">False</string>
 
+    <string name="answer6">California</string>
+
     <!--Toast Message String-->
     <string name="merci">" your score is "</string>
     <string name="wellDone">Well done </string>
-    <string name="out7"> out of 5</string>
+    <string name="out7"> out of 6</string>
     <string name="finalScore">Your final score is:</string>
     <string name="nadaComment">Thanks for nothing!</string>
     <string name="ansSomething">At least try and answer something</string>
     <string name="almostLanded">You almost landed it.   You got </string>
-    <string name="resetTRY">out of 5.   Press Reset and Try Again.</string>
+    <string name="resetTRY">out of 6.   Press Reset and Try Again.</string>
     <string name="exclamationMark">!</string>
     <string name="period">.</string>
     <string name="enterNameField">Enter Your Name Here</string>
-
+    <string name="skateLogo">skate game quiz logo</string>
+    <string name="videokickflip">videoOfKickFlip</string>
+    <string name="differentStances">skaters with different stances</string>
+    <string name="sk8rMelonGrab">skater doing a melon grab</string>
+    <string name="longboardSkateboarder">longboard skateboarder</string>
+    <string name="evolutionPic">neanderthal to modern day evolution</string>
+    <string name="firstContestEditText">Enter Your Response Here</string>
 
 </resources>
