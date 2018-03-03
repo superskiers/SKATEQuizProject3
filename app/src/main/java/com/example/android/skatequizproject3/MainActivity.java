@@ -119,8 +119,8 @@ public class MainActivity extends AppCompatActivity {
         if (cestvrai) {
             score ++;
         }
-        if (getAns6); {
-            score += 10;
+        if (getAns6) {
+            score += 1;
         }
         return score;
     }
