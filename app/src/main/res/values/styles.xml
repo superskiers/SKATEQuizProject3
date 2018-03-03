@@ -21,4 +21,10 @@
         <item name="android:textSize">@dimen/general_text</item>
     </style>
 
+    <style name="buttons">
+        <item name="android:layout_width">@dimen/seize</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>

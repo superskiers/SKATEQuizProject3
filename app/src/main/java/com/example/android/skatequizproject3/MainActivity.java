@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 vv.start();
             }
         });
-        Uri uri = Uri.parse("android.resource://com.example.android.skatescrollview/"+ R.raw.kickflip);
+        Uri uri = Uri.parse("android.resource://com.example.android.skatequizproject3/"+ R.raw.kickflip);
 
         vv.setVideoURI(uri);
 

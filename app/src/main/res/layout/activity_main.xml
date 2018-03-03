@@ -278,7 +278,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/two65DP"
                 android:src="@drawable/skateboard60s"
-                android:layout_marginTop="@dimen/buckDP"/>
+                android:layout_marginTop="@dimen/buckDP"
+                android:contentDescription="antiqueSkateboard"/>
 
             <TextView
                 android:id="@+id/question6"
@@ -294,7 +295,7 @@
                 android:id="@+id/answer6"
                 android:textSize="@dimen/vingtSP"
                 style="@style/blackAndBold"
-                android:paddingLeft="80dp"
+                android:paddingLeft="@dimen/eightTdp"
                 android:layout_marginLeft="@dimen/huit"
                 android:layout_marginRight="@dimen/huit"
                 android:layout_gravity="clip_vertical"
@@ -302,25 +303,21 @@
                 android:background="@drawable/circle_button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="60dp"
+                android:layout_marginBottom="@dimen/soixante"
                 android:hint="@string/firstContestEditText"
                 android:textColorHint="@color/black"
                 android:inputType="textCapWords"/>
 
             <Button
-                android:layout_width="@dimen/seize"
-                android:layout_height="wrap_content"
-                android:id="@+id/submitBTN"
-                android:textStyle="bold"
+                style="@style/buttons"
                 android:onClick="sendMessage"
+                android:id="@+id/submitBTN"
                 android:text="@string/submit"/>
 
             <Button
-                android:layout_width="@dimen/seize"
-                android:layout_height="wrap_content"
-                android:id="@+id/resetBTN"
-                android:textStyle="bold"
+                style="@style/buttons"
                 android:onClick="resetQuiz"
+                android:id="@+id/resetBTN"
                 android:text="@string/reset" />
 
         </TableLayout>
